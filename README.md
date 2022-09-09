@@ -18,4 +18,4 @@ Environment: CentOS7
 
 1. When we complete the preparations, we use the CEPh-ansible tool to automate the Ceph cluster deployment.
 
-2. We integrate the revised osd_client. py and ceph_monitor_optimize. py code into the Ceph source code to adaptively optimize the read and write performance of the cluster. Osd_client. py is responsible for collecting OSDs load information and uploading it to SDN_Monitor. The cePH_MONITor_optimize.py code receives load information from SDN_Monitor delivery. The random forest algorithm running on Ceph_Monitor then receives the load information and trains the prediction model. Finally, Ceph_Monitor uses prediction model and mathematical model to make decision optimization.
+2. We have added a custom OSD_INFO_MAP to the Ceph source code. OSD_INFO_MAP can be combined with SDN network model to maintain the load and network status information of OSD in real time and can be sensed by CRUSH algorithm. Finally, we use this information to build prediction model and multi-attribute decision mathematical model to optimize the read and write performance of the cluster.
