@@ -24,4 +24,4 @@ Environment: CentOS7
 3. Olsync can offer efficient object-level tiering and coordination services using the global views obtained by PIPO in SDN (e.g., data access patterns and interfering object requests) to make tiered storage and performance optimization decisions.
 
 # Tiered Data Sets
-Olsync references Amazon Redshift clusters to achieve the optimal "performance-cost" balance. Links to Amazon Redshift clusters and their datasets can be found here: https://github.com/aws-samples /amazon-redshift-tiered-storage.The IBM Object Storage datasets that Olsync used for testing is linked here: http://iotta.snia.org/traces/key-value/36305.
+Olsync references Amazon Redshift clusters to achieve the optimal "performance-cost" balance. Links to Amazon Redshift clusters and their datasets can be found here: https://github.com/aws-samples/amazon-redshift-tiered-storage.The IBM Object Storage datasets that Olsync used for testing is linked here: http://iotta.snia.org/traces/key-value/36305.
