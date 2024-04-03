@@ -1,5 +1,5 @@
 # SDN-Ceph
-In Software Defined Network(SDN), we propose An Adaptive Read/Write Optimized Algorithm for Ceph Heterogeneous Systems via Performance Prediction and Multi-attribute Decision-making.
+In Software Defined Network(SDN), we propose An Adaptive Read/Write Optimized Algorithm for Ceph Heterogeneous Systems via Performance Prediction and Multi-attribute Decision-making.The reference link is as follows: https://link.springer.com/article/10.1007/s10586-022-03764-3.
 
 In addition, we introduce Olsync, an object-level tiering and coordination system designed to enhance storage resource utilization and file access performance. Specifically, Olsync employs PIPO (Packet-In-Packet-Out), an innovative network communication framework based on SDN, to collaboratively optimize both the network control plane and underlying data plane. 
 
