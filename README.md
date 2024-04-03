@@ -20,6 +20,5 @@ Environment: CentOS7
 
 2. We have added a custom OSD_INFO_MAP to the Ceph source code. OSD_INFO_MAP can be combined with SDN network model to maintain the load and network status information of OSD in real time and can be sensed by CRUSH algorithm. Finally, we use this information to build prediction model and multi-attribute decision mathematical model to optimize the read and write performance of the cluster.
 
-# Tiered Data Sets in Amazon Redshift
-Amazon Redshift offers a common query interface against data stored in fast, local storage as well as data from high-capacity, inexpensive storage (S3). This workshop will cover the basics of this tiered storage model and outline the design patterns you can leverage to get the most from large volumes of data. You will build out your own Redshift cluster with multiple data sets to illustrate the trade-offs between the storage systems. By the time you leave, you’ll know how to distribute your data and design your DDL to deliver the best data warehouse for your business.
-The dataset is linked as follows:：https://github.com/aws-samples/amazon-redshift-tiered-storage.
+# Tiered Data Sets
+Olsync references Amazon Redshift clusters to achieve the optimal "performance-cost" balance. Links to Amazon Redshift clusters and their datasets can be found here: https://github.com/aws-samples /amazon-redshift-tiered-storage.The IBM Object Storage datasets that Olsync used for testing is linked here: http://iotta.snia.org/traces/key-value/36305.
